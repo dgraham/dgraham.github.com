@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  height: 100%;
+}
+body {
+  background: url(jellies.jpg);
+  background-size: cover;
+  color: hsl(61, 100%, 86%);
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+}
+h1 {
+  color: hsl(61, 100%, 81%);
+  font-size: 28pt;
+  font-weight: 100;
+  margin-bottom: 60px;
+  font-weight: 100;
+  font-style: italic;
+  font-family: "league-gothic", "Helvetica Neue", Helvetica, sans-serif;
+}
+p {
+  line-height: 150%;
+  margin-bottom: 22px;
+  width: 350px;
+}
+ul {
+  list-style-type: none;
+  list-style-position: outside;
+  position: absolute;
+  top: 123px;
+  right: 170px;
+}
+li {
+  line-height: 150%;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+a:hover {
+  color: inherit;
+}
+#container {
+  background: rgba(0, 0, 0, 0.75);
+  box-shadow: 5px 0 5px rgba(0, 0, 0, 0.9) inset;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+  margin-top: -140px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 50%;
+}
+#container section {
+  height: 240px;
+  width: 920px;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+}
+header {
+  background: #000;
+  height: 5px;
+}
+footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  height: 5px;
+  background-color: #000;
+}
+
