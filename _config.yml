@@ -1,0 +1,3 @@
+permalinks: pretty
+exclude: [README, Gemfile, Gemfile.lock, bin, vendor, script]
+
